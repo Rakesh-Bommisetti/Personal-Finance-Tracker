@@ -1,0 +1,93 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444;
+    background-color: #f3f3f3;
+    height: 100vh;
+    padding: 2rem;
+  }
+  
+  .navigation {
+    display: flex;
+    align-items: center;
+    padding: 25 2rem;
+    margin-bottom: 7rem;
+    background-image: url("card-lazy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .welcome {
+    font-size: 4.9rem;
+    font-weight: 700;
+    padding-left: 5rem;
+  }
+  
+  .logo {
+    height: 9.25rem;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .balance_label {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: -0.2rem;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #transactionsList {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  #transactionsList div {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #transactionsList div:last-child {
+    border-bottom: none;
+  }
+  
+  #transactionsList .income {
+    color: green;
+  }
+  
+  #transactionsList .expense {
+    color: red;
+  }
+  
+  #balance {
+    font-weight: bold;
+  }
